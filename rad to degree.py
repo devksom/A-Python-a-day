@@ -4,8 +4,9 @@
 #Divide product by pi
 #Print result
 #import math library
-import math
+
 def radconv():
+    import math
     inp= float(input('Please enter number to be converted '))
     pi=math.pi
     prod = inp*180
